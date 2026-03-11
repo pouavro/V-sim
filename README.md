@@ -1,8 +1,3 @@
----
-Auteur: Ilan Vast
-title: Modèle de README pour les trophées NSI 
-tags: trophées NSI, lycée
----
 
 # 🚀 Simulateur de Propagation (Épidémie sur Grille)
 
@@ -15,7 +10,7 @@ Le projet permet d'ajuster des probabilités de contamination et de visualiser e
 ## 👥 L'Équipe
 
 - **Ilan Vast** (@pouavro) : 
-- **Lucas** (à remplir) :
+- **Lucas** (@zewaave) :
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
 
