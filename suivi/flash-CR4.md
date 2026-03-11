@@ -1,7 +1,7 @@
 ## compte rendu 16/02/2026
 ilan : mainV7:
--utilisation du dictionnaire au lieu de liste
--refabrication du code
+- utilisation du dictionnaire au lieu de liste
+- refabrication du code
 
 
 lucas : 
