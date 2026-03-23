@@ -1,9 +1,5 @@
 # 🚀 Simulateur de Propagation (Épidémie sur Grille)
-<p align="center">
-  <img src="assets/logo.png" alt="V-sim_Logo" width="200">
-</p>
-
-<h1 align="center">V-Sim</h1>
+![Logo V-Sim](logo_vsim.png)
 ## 📝 Description
 
 Ce projet est un simulateur interactif développé en Python, modélisant la propagation d'une épidémie au sein d'une population sur une grille 2D. Contrairement à une simulation statique, ce programme met en scène des **individus mobiles** dont les déplacements influencent dynamiquement les zones de risque en temps réel.
