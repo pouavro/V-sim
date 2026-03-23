@@ -21,7 +21,7 @@ La simulation repose sur une machine à états finis appliquée à chaque cellul
 
 ---
 
-## 🛠️ Aspects Techniques (Spécificités NSI)
+## 🛠️ Aspects Techniques 
 
 Ce projet exploite plusieurs concepts fondamentaux du programme de spécialité NSI :
 
