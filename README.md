@@ -12,12 +12,13 @@ L'objectif est d'analyser l'interaction entre l'environnement (cases fixes) et d
 
 La simulation repose sur une machine à états finis appliquée à chaque cellule de la grille :
 
-| État | Représentation Visuelle | Signification |
-| :--- | :--- | :--- |
-| **0** | 🟨 Beige | Case vide ou obstacle. |
-| **1** | 🟩 Vert | Case saine (zone sécurisée). |
-| **2** | 🟥 Rouge | **Infectee** : endroit pile de l'infecter. |
-| **3** | 🟥 Rouge foncé | **zone infectee** : hitbox de l'infecter. |
+| État | Code Couleur | Représentation Visuelle | Signification |
+| :--- | :--- | :--- | :--- |
+| **0** | `""` (Transparent) | 🖼️ **Fond de carte** | Case vide (laisse apparaître le décor `map1.png`). |
+| **1** | `#0077b6` | 🔵 **Bleu foncé** | **Sain** : Position centrale du personnage en bonne santé. |
+| **2** | `#bc4749` | 🔴 **Rouge brique** | **Infecté** : Position centrale du personnage malade. |
+| **3** | `#ff8fa3` | 💓 **Rose / Rouge clair** | **Zone d'infection** : Hitbox de danger autour d'un malade. |
+| **4** | `#ade8f4` | 💎 **Bleu ciel** | **Zone de présence** : Rayon visuel autour d'un personnage sain. |
 
 ---
 
@@ -44,14 +45,11 @@ Ce projet exploite plusieurs concepts fondamentaux du programme de spécialité 
 ---
 
 ## 🚀 Installation et Utilisation
+1. **Copier** le dossier `version finale` sur votre PC.
+2. **Ouvrir** le dossier (ne pas rester dans le .zip).
+3. **Lancer** le fichier `main.py` (Double-clic ou via terminal).
 
-1.  **Prérequis :** Python 3.10 ou supérieur.
-2.  **Installation :** Téléchargez le script et assurez-vous que le fichier `perso 1.png` est présent à la racine du dossier.
-3.  **Lancement :**
-    ```bash
-    python main.py
-    ```
-4.  **Simulation :** Cliquez sur **Simuler** pour générer les zones de danger et sur **Déplacement** pour observer l'évolution de l'épidémie avec le mouvement des porteurs.
+> **Important :** Le dossier `images` doit rester au même endroit que `main.py` pour que les graphiques s'affichent.
 
 ---
 
