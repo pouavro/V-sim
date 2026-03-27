@@ -58,3 +58,11 @@ Ce projet exploite plusieurs concepts fondamentaux du programme de spécialité 
 * Ajout d'un graphique de suivi (S-I-R : Sains, Infectés, Rétablis) en temps réel.
 * Implémentation de différents types d'individus (médecins, personnes immunisées).
 * Réglage dynamique des probabilités via des curseurs (`Scale`) Tkinter.
+
+## Utilisation de l'Intelligence Artificielle
+
+Dans un souci de transparence, nous tenons à préciser que l'IA a été utilisée de manière ciblée comme **assistant de développement** pour les points suivants :
+
+- **Optimisation de la structure de données :** Aide à la définition de la "carte d'identité" des cases (dictionnaire de coordonnées) pour garantir la meilleure performance lors des calculs de voisinage.
+- **Rédaction & Présentation :** Support pour la structuration de ce fichier `README.md` et aide à l'écriture du script de la vidéo de présentation.
+- **Licence & Documentation :** Aide au choix et à la mise en place de la licence du projet.
